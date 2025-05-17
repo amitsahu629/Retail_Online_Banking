@@ -1,4 +1,5 @@
 # Retail_Online_Banking
+
 ## Overview
 Alexa Bank is a comprehensive banking application that provides various banking services including account management, ATM card services, loan processing, and customer management. This application is built using Spring Boot and follows a layered architecture.
 
@@ -70,26 +71,26 @@ bank-apps/
 
 ### Installation
 1. Clone the repository:
-   
-   git clone https://github.com/your-repo/bank-apps.git
-   
+   ```bash
+   git clone https://github.com/amitsahu629/Retail_Online_Banking.git
+   ```
 
 2. Navigate to the project directory:
-   
+   ```bash
    cd bank-apps
-  
+   ```
 
 3. Configure your database settings in `src/main/resources/application.properties`
 
 4. Build the project:
-   
+   ```bash
    ./mvnw clean install
-   
+   ```
 
 5. Run the application:
-   
+   ```bash
    ./mvnw spring-boot:run
-   
+   ```
 
 ## API Documentation
 The application provides REST APIs for all banking operations. API documentation can be accessed after running the application at:
@@ -105,9 +106,9 @@ Edit `src/main/resources/application.properties` to configure:
 
 ## Testing
 To run tests:
-
+```bash
 ./mvnw test
-
+```
 
 ## Contributing
 Contributions are welcome. Please fork the repository and create a pull request with your changes.
